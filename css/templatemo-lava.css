@@ -1,4 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@font-face {
+  font-family: "Janat";
+  src: url("../webfonts/A.Jannat.LT.Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Janat";
+  src: url("../webfonts/A.Jannat.LT.Bold.ttf");
+  font-weight: bold;
+}
 
 html,
 body,
@@ -89,7 +99,7 @@ hgroup {
 
 html,
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Janat', sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -127,7 +137,7 @@ p {
 html,
 body {
   background: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Janat', sans-serif;
 }
 
 ::selection {
@@ -295,6 +305,9 @@ header
   transition: all 0.3s ease 0s;
 }
 
+.header-area .main-nav .logo img {
+  width: 120px;
+}
 
 .header-area .main-nav .nav {
   margin-top: 27px;
@@ -837,7 +850,7 @@ promotion
 }
 
 #promotion .right-text ul li {
-  display: inline-flex;
+  display: inline-block;
   justify-content: space-between;
   margin-bottom: 60px;
 }
@@ -849,6 +862,7 @@ promotion
 #promotion .right-text img {
   display: inline-block;
   margin-left: 30px;
+  float: right;
 }
 
 #promotion .right-text h4 {
@@ -970,11 +984,6 @@ testimonials
   }
 }
 
-/* 
----------------------------------------------
-footer
---------------------------------------------- 
-*/
 
 @media (max-width: 992px) {
   footer {
@@ -996,8 +1005,8 @@ footer
 }
 
 footer {
-  margin-top: 200px;
-  padding-top: 200px;
+
+  padding-top: 100px;
   width: 100%;
 }
 
