@@ -4,7 +4,8 @@
 		loop: true,
 		margin: 30,
 		nav: true,
-		rtl:true,
+		rtl: true,
+
 		pagination: true,
 		responsive: {
 			0: {
